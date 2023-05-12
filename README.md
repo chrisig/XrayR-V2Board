@@ -8,7 +8,7 @@
  * 
  * Copyright © 2022 by Vincent, All Rights Reserved. 
 -->
-English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/README_CN.md)
+English | [简体中文](https://github.com/chrisig/XrayR-V2Board/blob/main/README_CN.md)
 
 [Speed up your nodes with Amazon CDN (CloudFront)](https://github.com/missuo/XrayR-V2Board/blob/main/CloudFront.md)
 
@@ -25,7 +25,7 @@ English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/READM
 - Support for `TLS`, such as `TCP-TLS`, `WebSocket-TLS`, `gRPC-TLS` and `Trojan-TLS`.
 - If you are using the TLS protocol, use the following command to request a certificate. (**Before applying, make sure that the domain name has resolved to an IP and that port 80 of the server is not occupied, and temporarily stop the `Nginx` service.**)
 ```shell
-bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/AutoApplyCert/apply.sh)
+bash <(curl -Ls https://cdn.jsdelivr.net/gh/chrisig/AutoApplyCert/apply.sh)
 ```
 ### Oct 7, 2022
 - Switch to the latest official version.
@@ -33,7 +33,7 @@ bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/AutoApplyCert/apply.sh)
 - Remove the autonomy to choose whether to enable `AEAD` encryption and force `AEAD` to be enabled
 ### April 27, 2022
 - Author delete library, this script enable backup solution, not affected
-- My [XrayR backup](https://github.com/missuo/XrayR)
+- My [XrayR backup](https://github.com/chrisig/XrayR)
 ### April 13, 2022
 - Added `ARM64` support (e.g. Oracle ARM can be installed perfectly)
 ### February 28, 2022
@@ -62,7 +62,7 @@ ApiKey: "YOUR_TOKEN" # Modify here
 ```
 2. Modify line 224 of the `install.sh` file to change the username `missuo` to your own GitHub username.
 ```
-wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
+wget https://cdn.jsdelivr.net/gh/chrisig/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
 ```
 3. Change the username `missuo` in the link below to your own GitHub username to complete the configuration of the one-click install script command.
 ### Install Command
